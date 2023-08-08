@@ -1,3 +1,5 @@
+import "../css/Score.css"
+
 function Score(props) {
   function getScoreColor() {
     if (props.value >= 90) {
@@ -9,7 +11,7 @@ function Score(props) {
     }
   }
 
-  return <div className={getScoreColor()}>{props.value}</div>;
+  return <div className={`score ${getScoreColor()}`}>Score: {props.value}</div>;
 }
 
 export default Score;

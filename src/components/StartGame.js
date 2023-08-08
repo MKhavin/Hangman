@@ -6,7 +6,7 @@ function StartGame(props) {
         props.setGameState("Play")
     }
 
-    return <div class="start-game">
+    return <div className="start-game">
         <h1 className="title">Hangman</h1>
         <button onClick={startGame} className="game-button">Start Game</button>
     </div>

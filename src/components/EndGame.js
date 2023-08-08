@@ -1,5 +1,7 @@
+import "../css/EndGame.css"
+
 function EndGame(props) {
-    return <div>
+    return <div className="end-game-container">
         <p>{props.endGameText}</p>
     </div>
 }

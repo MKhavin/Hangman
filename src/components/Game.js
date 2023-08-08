@@ -2,6 +2,7 @@ import Score from "./Score";
 import Solution from "./Solution";
 import Letters from "./Letters";
 import { useState } from "react";
+import "../css/Game.css"
 
 function Game(props) {
     let [letters, setLetterStatus] = useState(generateLetterStatuses());
@@ -50,7 +51,7 @@ function Game(props) {
         return letterStatus;
     }
 
-    return <div>
+    return <div className="game-container">
         <Score value={props.score} />
         <Solution solution={props.solution} letters={letters} />
         <Letters
