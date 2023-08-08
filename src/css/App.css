@@ -1,0 +1,37 @@
+.letter-selected {
+  text-decoration: line-through;
+}
+
+.letter-button {
+  cursor: pointer;
+}
+
+.high-score {
+  color: green;
+}
+
+.medium-score {
+  color: yellow;
+}
+
+.low-score {
+  color: red;
+}
+
+.App {
+  width: 80%;
+  height: 80%;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-family: 'Indie Flower', cursive;
+  border-radius: 1rem;
+}
+
+.game-button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  font-family: 'Indie Flower', cursive;
+}
